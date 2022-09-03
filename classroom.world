@@ -399,186 +399,6 @@
       </link>
       <pose frame=''>10.5875 -0.42004 0 0 0 -1.56883</pose>
     </model>
-    <model name='brick_box_3x1x3_clone_5_clone_5_clone'>
-      <static>1</static>
-      <link name='chassis'>
-        <pose frame=''>0 0 1.5 0 -0 0</pose>
-        <collision name='collision'>
-          <geometry>
-            <box>
-              <size>3 1 3</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <uri>model://brick_box_3x1x3/meshes/simple_box.dae</uri>
-              <scale>3 1 3</scale>
-            </mesh>
-          </geometry>
-          <material>
-            <script>
-              <uri>model://brick_box_3x1x3/materials/scripts</uri>
-              <uri>model://brick_box_3x1x3/materials/textures</uri>
-              <name>BrickBox/Diffuse</name>
-            </script>
-          </material>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <pose frame=''>5.60979 -10.5371 -0 0 0 -3.13941</pose>
-    </model>
-    <model name='brick_box_3x1x3_clone_5_clone_5_clone_0'>
-      <static>1</static>
-      <link name='chassis'>
-        <pose frame=''>0 0 1.5 0 -0 0</pose>
-        <collision name='collision'>
-          <geometry>
-            <box>
-              <size>3 1 3</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <uri>model://brick_box_3x1x3/meshes/simple_box.dae</uri>
-              <scale>3 1 3</scale>
-            </mesh>
-          </geometry>
-          <material>
-            <script>
-              <uri>model://brick_box_3x1x3/materials/scripts</uri>
-              <uri>model://brick_box_3x1x3/materials/textures</uri>
-              <name>BrickBox/Diffuse</name>
-            </script>
-          </material>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <pose frame=''>2.60821 -10.5493 -0 0 0 -3.13941</pose>
-    </model>
-    <model name='brick_box_3x1x3_clone_5_clone_5_clone_1'>
-      <static>1</static>
-      <link name='chassis'>
-        <pose frame=''>0 0 1.5 0 -0 0</pose>
-        <collision name='collision'>
-          <geometry>
-            <box>
-              <size>3 1 3</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <uri>model://brick_box_3x1x3/meshes/simple_box.dae</uri>
-              <scale>3 1 3</scale>
-            </mesh>
-          </geometry>
-          <material>
-            <script>
-              <uri>model://brick_box_3x1x3/materials/scripts</uri>
-              <uri>model://brick_box_3x1x3/materials/textures</uri>
-              <name>BrickBox/Diffuse</name>
-            </script>
-          </material>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <pose frame=''>-0.379036 -10.5691 -0 0 0 -3.13941</pose>
-    </model>
-    <model name='brick_box_3x1x3_clone_5_clone_5_clone_2'>
-      <static>1</static>
-      <link name='chassis'>
-        <pose frame=''>0 0 1.5 0 -0 0</pose>
-        <collision name='collision'>
-          <geometry>
-            <box>
-              <size>3 1 3</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <uri>model://brick_box_3x1x3/meshes/simple_box.dae</uri>
-              <scale>3 1 3</scale>
-            </mesh>
-          </geometry>
-          <material>
-            <script>
-              <uri>model://brick_box_3x1x3/materials/scripts</uri>
-              <uri>model://brick_box_3x1x3/materials/textures</uri>
-              <name>BrickBox/Diffuse</name>
-            </script>
-          </material>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <pose frame=''>-3.37492 -10.5338 -0 0 0 -3.13941</pose>
-    </model>
     <model name='brick_box_3x1x3_clone_5_clone_5_clone_5_clone_1'>
       <static>1</static>
       <link name='chassis'>
@@ -760,10 +580,20 @@
       <pose frame=''>-10.5581 9.46803 0 0 -0 1.57631</pose>
     </model>
     <state world_name='default'>
-      <sim_time>7131 150000000</sim_time>
-      <real_time>1604 196644835</real_time>
-      <wall_time>1662174398 801342538</wall_time>
-      <iterations>1534652</iterations>
+      <sim_time>7364 609000000</sim_time>
+      <real_time>241 262314437</real_time>
+      <wall_time>1662175265 595517841</wall_time>
+      <iterations>233459</iterations>
+      <model name='beer'>
+        <pose frame=''>-0 -0 -8e-06 -0 -0 -3e-06</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose frame=''>-0 -0 0.114992 -0 -0 -3e-06</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 -9.8 0 -0 0</acceleration>
+          <wrench>0 0 -3.822 0 -0 0</wrench>
+        </link>
+      </model>
       <model name='brick_box_3x1x3_clone_0'>
         <pose frame=''>-2.50408 10.6203 0 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -834,46 +664,6 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='brick_box_3x1x3_clone_5_clone_5_clone'>
-        <pose frame=''>-0.480713 -1.32516 -0 0 0 -3.13941</pose>
-        <scale>1 1 1</scale>
-        <link name='chassis'>
-          <pose frame=''>-0.480713 -1.32516 1.5 0 0 -3.13941</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='brick_box_3x1x3_clone_5_clone_5_clone_0'>
-        <pose frame=''>-3.49676 -1.32174 -0 0 0 -3.13941</pose>
-        <scale>1 1 1</scale>
-        <link name='chassis'>
-          <pose frame=''>-3.49676 -1.32174 1.5 0 0 -3.13941</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='brick_box_3x1x3_clone_5_clone_5_clone_1'>
-        <pose frame=''>2.51723 -1.30849 -0 0 0 -3.13941</pose>
-        <scale>1 1 1</scale>
-        <link name='chassis'>
-          <pose frame=''>2.51723 -1.30849 1.5 0 0 -3.13941</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='brick_box_3x1x3_clone_5_clone_5_clone_2'>
-        <pose frame=''>5.47867 -1.28856 0 0 0 -3.13941</pose>
-        <scale>1 1 1</scale>
-        <link name='chassis'>
-          <pose frame=''>5.47867 -1.28856 1.5 0 0 -3.13941</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
       <model name='brick_box_3x1x3_clone_5_clone_5_clone_5_clone_1'>
         <pose frame=''>-4.50348 0.68291 0 0 -0 1.57631</pose>
         <scale>1 1 1</scale>
@@ -915,33 +705,33 @@
         </link>
       </model>
       <model name='coke_can_clone_0'>
-        <pose frame=''>-3.7e-05 3.00008 -0.003472 -0.036723 0.008272 -0.000662</pose>
+        <pose frame=''>-3.7e-05 3.00008 -0.003472 -0.036721 0.008271 -0.000656</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-3.7e-05 3.00008 -0.003472 -0.036723 0.008272 -0.000662</pose>
+          <pose frame=''>-3.7e-05 3.00008 -0.003472 -0.036721 0.008271 -0.000656</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0.343723 -0.446662 -0.079208 1.60817 -0.191459 0.617947</acceleration>
-          <wrench>0.134052 -0.174198 -0.030891 0 -0 0</wrench>
+          <acceleration>-0.4341 0.225589 0.107991 2.28983 -1.40152 -0.671134</acceleration>
+          <wrench>-0.169299 0.08798 0.042117 0 -0 0</wrench>
         </link>
       </model>
       <model name='coke_can_clone_0_clone_0'>
-        <pose frame=''>-7.4e-05 5.00007 -0.003472 -0.036727 0.008266 -0.000676</pose>
+        <pose frame=''>-7.4e-05 5.00007 -0.003472 -0.036723 0.008267 -0.00067</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-7.4e-05 5.00007 -0.003472 -0.036727 0.008266 -0.000676</pose>
+          <pose frame=''>-7.4e-05 5.00007 -0.003472 -0.036723 0.008267 -0.00067</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0.093408 -0.093656 -0.001221 -1.48771 1.48633 -2.97615</acceleration>
-          <wrench>0.036429 -0.036526 -0.000476 0 -0 0</wrench>
+          <acceleration>-0.000719 0.105496 -0.008942 -1.86218 -0.016245 -0.042972</acceleration>
+          <wrench>-0.000281 0.041143 -0.003487 0 -0 0</wrench>
         </link>
       </model>
       <model name='coke_can_clone_0_clone_2'>
-        <pose frame=''>-2.2e-05 7.00002 -0.003472 -0.036723 0.008273 -0.000662</pose>
+        <pose frame=''>-2.2e-05 7.00002 -0.003472 -0.036723 0.008272 -0.000656</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-2.2e-05 7.00002 -0.003472 -0.036723 0.008273 -0.000662</pose>
+          <pose frame=''>-2.2e-05 7.00002 -0.003472 -0.036723 0.008272 -0.000656</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0.343736 -0.446662 -0.079208 1.60817 -0.191231 0.618021</acceleration>
-          <wrench>0.134057 -0.174198 -0.030891 0 -0 0</wrench>
+          <acceleration>0.343725 -0.44666 -0.079208 1.60813 -0.191424 0.617942</acceleration>
+          <wrench>0.134053 -0.174197 -0.030891 0 -0 0</wrench>
         </link>
       </model>
       <model name='ground_plane'>
@@ -955,63 +745,63 @@
         </link>
       </model>
       <model name='human'>
-        <pose frame=''>-1.49991 3 -0 2e-06 1e-06 -0.001176</pose>
+        <pose frame=''>-1.49998 3 -0 1e-06 -1e-06 -0.00052</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-1.49991 3 -0 2e-06 1e-06 -0.001176</pose>
+          <pose frame=''>-1.49998 3 -0 1e-06 -1e-06 -0.00052</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>1.65813 -1.16897 -1.27084 -1.90511 1.41512 -3.09835</acceleration>
-          <wrench>132.65 -93.5175 -101.668 0 -0 0</wrench>
+          <acceleration>-1.61683 -1.1361 -1.48028 -1.93392 -1.44799 3.09662</acceleration>
+          <wrench>-129.347 -90.8879 -118.422 0 -0 0</wrench>
         </link>
       </model>
       <model name='human_clone'>
-        <pose frame=''>1.45165 3.03113 -0 0 1e-06 -0.002687</pose>
+        <pose frame=''>1.4518 3.03113 -1e-06 -1e-06 1e-06 -0.004179</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>1.45165 3.03113 -0 0 1e-06 -0.002687</pose>
+          <pose frame=''>1.4518 3.03113 -1e-06 -1e-06 1e-06 -0.004179</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>1.56284 -1.10566 -1.73985 -1.96649 1.50468 -3.09804</acceleration>
-          <wrench>125.027 -88.4525 -139.188 0 -0 0</wrench>
+          <acceleration>1.66404 1.16177 -1.28048 1.92463 1.41487 3.0828</acceleration>
+          <wrench>133.123 92.9414 -102.438 0 -0 0</wrench>
         </link>
       </model>
       <model name='human_clone_0'>
-        <pose frame=''>-1.50265 4.96256 0 -1e-06 1e-06 0.10203</pose>
+        <pose frame=''>-1.50251 4.96257 -1e-06 -1e-06 1e-06 0.100637</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-1.50265 4.96256 0 -1e-06 1e-06 0.10203</pose>
+          <pose frame=''>-1.50251 4.96257 -1e-06 -1e-06 1e-06 0.100637</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>-2.03585 -1.75362 1.51248 -1.25556 -1.04566 -3.09672</acceleration>
-          <wrench>-162.868 -140.29 120.999 0 -0 0</wrench>
+          <acceleration>1.49703 1.29649 -1.46619 -1.36681 1.55966 -0.046179</acceleration>
+          <wrench>119.762 103.719 -117.296 0 -0 0</wrench>
         </link>
       </model>
       <model name='human_clone_1'>
-        <pose frame=''>1.5002 5 -0 1e-06 -1e-06 -0.001143</pose>
+        <pose frame=''>1.50023 5 -0 1e-06 -1e-06 -0.001459</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>1.5002 5 -0 1e-06 -1e-06 -0.001143</pose>
+          <pose frame=''>1.50023 5 -0 1e-06 -1e-06 -0.001459</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>-1.6134 -1.13219 -1.50148 -1.93798 -1.45149 3.09677</acceleration>
-          <wrench>-129.072 -90.5751 -120.118 0 -0 0</wrench>
+          <acceleration>-1.62144 -1.13706 -1.462 -1.93277 -1.44306 3.09656</acceleration>
+          <wrench>-129.715 -90.9651 -116.96 0 -0 0</wrench>
         </link>
       </model>
       <model name='human_clone_2'>
-        <pose frame=''>-1.49995 7 -0 0 1e-06 -0.001104</pose>
+        <pose frame=''>-1.49994 7 -1e-06 -1e-06 1e-06 -0.001211</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-1.49995 7 -0 0 1e-06 -0.001104</pose>
+          <pose frame=''>-1.49994 7 -1e-06 -1e-06 1e-06 -0.001211</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>1.71633 1.20313 -1.00451 1.8752 1.36909 3.10513</acceleration>
-          <wrench>137.306 96.2504 -80.3611 0 -0 0</wrench>
+          <acceleration>1.62365 1.13953 -1.45392 1.93412 1.44445 3.09397</acceleration>
+          <wrench>129.892 91.1623 -116.314 0 -0 0</wrench>
         </link>
       </model>
       <model name='human_clone_3'>
-        <pose frame=''>1.50006 7 -0 0 1e-06 -0.001007</pose>
+        <pose frame=''>1.50015 7 0 0 -1e-06 -0.001921</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>1.50006 7 -0 0 1e-06 -0.001007</pose>
+          <pose frame=''>1.50015 7 0 0 -1e-06 -0.001921</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>1.56527 1.09872 -1.7483 1.97356 1.50193 3.09808</acceleration>
-          <wrench>125.221 87.8978 -139.864 0 -0 0</wrench>
+          <acceleration>2.15133 -0.781455 1.27532 -2.21657 0.893491 -3.05379</acceleration>
+          <wrench>172.106 -62.5164 102.026 0 -0 0</wrench>
         </link>
       </model>
       <model name='table'>
@@ -1075,12 +865,12 @@
         </link>
       </model>
       <light name='sun'>
-        <pose frame=''>0 0 10 0 -0 0</pose>
+        <pose frame=''>0 -3 7 0 -0 0</pose>
       </light>
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose frame=''>8.2835 -13.0341 15.942 -0 0.69009 1.94118</pose>
+        <pose frame=''>2.20901 -3.93711 3.03724 0 0.36209 1.79718</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
@@ -2845,6 +2635,62 @@
         <kinematic>0</kinematic>
       </link>
       <pose frame=''>1.65345 6.81472 0 0 1e-06 -0.000708</pose>
+    </model>
+    <model name='beer'>
+      <link name='link'>
+        <pose frame=''>0 0 0.115 0 -0 0</pose>
+        <inertial>
+          <mass>0.39</mass>
+          <inertia>
+            <ixx>0.00058</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.00058</iyy>
+            <iyz>0</iyz>
+            <izz>0.00019</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <cylinder>
+              <radius>0.055</radius>
+              <length>0.23</length>
+            </cylinder>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <cylinder>
+              <radius>0.055</radius>
+              <length>0.23</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://beer/materials/scripts</uri>
+              <uri>model://beer/materials/textures</uri>
+              <name>Beer/Diffuse</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>-0.004126 -0.009016 0 0 -0 0</pose>
     </model>
   </world>
 </sdf>
